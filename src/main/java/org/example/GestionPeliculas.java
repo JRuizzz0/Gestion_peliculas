@@ -77,8 +77,8 @@ public class GestionPeliculas {
             System.out.println("Introduce el código: ");
             codigo = sc.nextLine();
 
-            if (!codigo.matches("[A-Z0-9]+")) {
-                System.out.println("Error: El codigo debes ser alfanumerico y contener mayusculas.");
+            if (!codigo.matches("[A-Z0-9]+") && codigo.length() >= 5) {
+                System.out.println("Error: El codigo debes ser alfanumerico y contener mayusculas y tener al menos 5 caracteres.");
                 codigoValido = false;
             } else {
                 for (Pelicula p : peliculas) {
