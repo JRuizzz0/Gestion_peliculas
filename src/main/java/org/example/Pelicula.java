@@ -1,10 +1,9 @@
 package org.example;
 
-import Recursos.Genero;
+import recursos.Genero;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 public class Pelicula {
 private String  codigo;

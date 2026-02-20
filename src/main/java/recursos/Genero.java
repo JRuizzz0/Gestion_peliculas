@@ -1,4 +1,4 @@
-package Recursos;
+package recursos;
 
 public enum Genero {
     ACCION,

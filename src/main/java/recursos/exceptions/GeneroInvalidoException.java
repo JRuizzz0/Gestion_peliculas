@@ -1,4 +1,4 @@
-package Recursos.Exceptions;
+package recursos.exceptions;
 
 public class GeneroInvalidoException extends Exception {
     public GeneroInvalidoException(String message) {

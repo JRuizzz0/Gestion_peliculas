@@ -1,4 +1,4 @@
-package Recursos.Exceptions;
+package recursos.exceptions;
 
 public class InvalidDateException extends RuntimeException {
 

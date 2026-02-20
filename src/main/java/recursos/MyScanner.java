@@ -1,4 +1,4 @@
-package Recursos;
+package recursos;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
